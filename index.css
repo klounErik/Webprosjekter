@@ -1,20 +1,13 @@
- html{ 
-  background: url(smartphone.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-.trigger{
-    height: 800px;
-    width: 200px;
+.header{
+    height 450px;
+    width: 300px;
     background-color: red;
-    position: absolute;
 }
+
 body{
-    padding: 0px;
     margin: 0px;
-    
+    padding: 0x;
+    height: 800px;
+    width: 800px;
+    background-color: black;
 }
