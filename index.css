@@ -1,18 +1,28 @@
+html{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+}
 body{
     height: 100%;
     width: 100%;
     background-image: url(book.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
+    background-size:cover;
     margin: 0px;
     padding: 0x;
+    position: absolute;
+    background-position: center;
+    
+ 
 }
 
 a{
     font-family: 'Source Code Pro', monospace;
     text-decoration-line: none;
     text-decoration: none;
+    position: static;
+    
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
@@ -43,24 +53,28 @@ a:hover{
     text-transform: uppercase;
     color: white;
     font-size: 20px;
+    position: relative;
+ 
     
 }
 
-footer{
-    height: 30px;
-    width: 100%;
+footer {
     background-color: black;
-    margin-top:  484px;
-    padding: 0px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
 }
 p{
    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    position: relative;
+    
     text-transform: uppercase;
     color: white;
+    text-align: center;
     font-size: 20px;
-    margin-top: 100px;
+    position: relative;
 }
 
 
