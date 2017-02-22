@@ -1,13 +1,22 @@
-.header{
-    height 450px;
-    width: 300px;
-    background-color: red;
-}
-
 body{
+    height: 100%;
+    width: 100%;
+    background-image: url(book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
     margin: 0px;
     padding: 0x;
-    height: 800px;
-    width: 800px;
-    background-color: black;
+}
+
+a{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration-line: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
 }
