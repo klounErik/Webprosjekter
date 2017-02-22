@@ -13,12 +13,12 @@
 
     <body>
                     <header class="header">
-                       <nav class="navigation">
-                                <a href="#"onclick="FrontpageClick();">Frontpage</a>
-                                <a href="#"onclick="aboutClick();">About me</a>
-                                <a href="#"onclick="workClick();">Work</a>
-                                <a href="#"onclick="resumeClick();">Resume</a>
-                                <a href="#"onclick="contactClick();">Contact</a>
+                       <nav class="navigation" id="menuItem">
+                                <a href="#">Frontpage</a>
+                                <a href="#about">About me</a>
+                                <a href="#work">Work</a>
+                                <a href="#resume">Resume</a>
+                                <a href="#contact">Contact</a>
                             </nav>
                         </header>
                         
@@ -28,11 +28,11 @@
                                 <h1><span>Jan Design</span></h1>
                                 <p>Web developer - Student - dreamer</p>                        
                         </div>
-                                <div class="about">
+                                <div class="modal" id="about">
                                     <h2>About Me</h2>
                                     <p class="textcontact">My name is Jan Erik, and i am an passionate web developer and a student studying IT.</p>
                             </div>
-                                <div class="work">
+                                <div class="modal" id="work">
                                     <h2>Previous work</h2>
                                     
                                     <!-- Going to add an carousel here -->
@@ -47,10 +47,10 @@
                                             </a><h3>https://github.com/klounErik</h3></ul>
                                         </div>
                         </div>          
-                                <div class="resume">
+                                <div class="modal" id="resume">
                                     <h2>Resume</h2>
                         </div>
-                                <div class="contact">
+                                <div class="modal" id="contact">
                                     <h2>Contact</h2>
                                     
                                     <p class="textcontact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id rhoncus enim. Praesent pretium erat nec arcu venenatis, eget scelerisque lorem bibendum.  
@@ -67,7 +67,9 @@
             <footer class="footer">
             <p>Created by Jan Erik Egge - 2017</p>
         </footer>
-        <script type="text/javascript" src="../js/index.js"></script>
+        
         <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/index.js"></script>
+        
     </body>
     </html>
