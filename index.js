@@ -7,7 +7,7 @@ function contactClick(){
     $(".work").hide();
     $(".about").hide();
     $(".overliner").hide();
-    
+
 }
 
 function resumeClick(){
@@ -41,6 +41,7 @@ function workClick(){
     $(".about").hide();
     $(".overliner").hide();
 }
+
 
 
 
