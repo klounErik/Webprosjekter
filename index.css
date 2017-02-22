@@ -15,6 +15,8 @@ html{
 body{
     height: 100%;
     width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     background-image: url(book.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -65,15 +67,17 @@ h2{
 }
 
 h3{
-    margin-left: 20px;
+
     text-transform: uppercase;
     font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     color: black;
     display: inline-block;
-    
     text-decoration-color: black;
-    text-decoration: underline
+    text-decoration: underline;
+    position: relative;
+    left: 5%;
+    bottom: 25%;
 }
 
 span{
@@ -92,12 +96,13 @@ a:active{
 
 .overliner{
     font-family: 'Source Code Pro', monospace;
-    text-align: center;
+    display: inline-block;
     text-transform: uppercase;
     color: white;
     font-size: 20px;
-    position: relative;
-    top: 350px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
 
 footer {
@@ -120,60 +125,21 @@ p{
     font-size: 20px;
     position: relative;
 }
-.resume{
-    height: 80%;
-    width: 50%;
-    background-color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    display: none;
-    border-radius: 40px;
-    opacity: .9;
-}
-.contact{
-    
-    height: 80%;
-    width: 50%;
-    background-color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    display: none;
-    border-radius: 40px;
-    opacity: .9;
-}
 
-.about {
+.work,
+.about,
+.resume,
+.contact {
     height: 80%;
     width: 50%;
     background-color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
+    top: 10%;
+    left: 30%;
     position: absolute;
-    transform: translate(-50%, -50%);
     display: none;
     border-radius: 40px;
     opacity: .9;
-}
-
-.work{
-    height: 80%;
-    width: 50%;
-    background-color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    display: none;
-    border-radius: 40px;
-    opacity: .9;
+    color: black;
 }
 
 .photos{
@@ -189,12 +155,13 @@ p{
     color: black;
     font-size: 15px;
     text-align: center;
-    display: block;
+    display: inline-block;
 }
 .icons{
-    margin-top: 450px;
     display: inline-flex;
-    padding: 0px;
+    position: absolute;
+    top: 90%;
+    
 }
 
 .me{
@@ -202,6 +169,8 @@ p{
     top: 320px;
     position: absolute;
 }
+
+
 
 
 
