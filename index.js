@@ -1,0 +1,4 @@
+function showmsg(){
+    
+    $(".contact").toggle();
+    }
