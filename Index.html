@@ -14,11 +14,11 @@
     <body>
                     <header class="header">
                        <nav class="navigation">
-                                <a href="#">Frontpage</a>
-                                <a href="#">About me</a>
-                                <a href="#">Work</a>
-                                <a href="#">Resume</a>
-                                <a href="#" onclick="showmsg();">Contact</a>
+                                <a href="#"onclick="FrontpageClick();">Frontpage</a>
+                                <a href="#"onclick="aboutClick();">About me</a>
+                                <a href="#"onclick="workClick();">Work</a>
+                                <a href="#"onclick="resumeClick();">Resume</a>
+                                <a href="#"onclick="contactClick();">Contact</a>
                             </nav>
                         </header>
 
@@ -26,18 +26,43 @@
 
                                 <h1><span>Jan Design</span></h1>
         
-                                <div class="Frontpage"></div>
-                                <div class="about"></div>
-                                <div class="work"></div>
-                                <div class="resume"></div>
+                                <div class="about">
+                                    <h2>About Me</h2>
+                        </div>
+                                <div class="work">
+                                    <h2>Previous work</h2>
+                                    
+                                    <!-- Going to add an carousel here -->
+                                    <!-- Going to add an carousel here -->
+                                    <!-- Going to add an carousel here -->
+                                    <section class="photos">
+                                        <img src="indexSketch.jpg" height="500px" width="700px">
+                                        
+                                    </section>
+                                        <div class="github">
+                                        <ul><a href="https://github.com/klounErik/Webprosjekter"><img src="github.svg" height="50px" width="50px">
+                                            </a><h3>https://github.com/klounErik</h3></ul>
+                                        </div>
+                        </div>          
+                                <div class="resume">
+                                    <h2>Resume</h2>
+                        </div>
                                 <div class="contact">
                                     <h2>Contact</h2>
-                                </div>
+                                    
+                                    <p class="textcontact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id rhoncus enim. Praesent pretium erat nec arcu venenatis, eget scelerisque lorem bibendum.  
+                                    Duis sed sollicitudin nulla. In lobortis venenatis porta. Quisque non dolor id justo placerat tempor sed ac est. Nam ac nibh ex. Aenean porta fermentum turpis, vel venenatis massa suscipit ut.                                    Duis sed sollicitudin nulla. In lobortis venenatis porta. Quisque non dolor id justo placerat tempor sed ac est. Nam ac nibh ex. Aenean porta fermentum turpis, vel venenatis massa suscipit ut.</p>
+                                    
+                                    <list class="icons">
+                                        <ul><img src="mail2.svg" height="50px" width="50px"><h3>Janegge1990@gmail.com</h3></ul>
+                                         <ul><img src="linkedin.svg" height="50px" width="50px"><h3>linkedin.com/in/jan-erik-egge-44aa67106</h3></ul>
+                                    </list>
+                            </div>
 
         
             
             <footer class="footer">
-                <p>Created by Jan Erik Egge - 2017</p>
+            <p>Created by Jan Erik Egge - 2017</p>
         </footer>
         <script type="text/javascript" src="index.js"></script>
         <script type="text/javascript" src="jquery.js"></script>

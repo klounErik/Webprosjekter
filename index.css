@@ -9,6 +9,7 @@ html{
     width: 100%;
     background-color: black;
     position: absolute;
+    display: block;
 }
 
 body{
@@ -21,6 +22,7 @@ body{
     padding: 0x;
     position: absolute;
     background-position: center;
+    display: block;
 }
 
 .navigation{
@@ -37,7 +39,6 @@ a{
     text-align: center;
     font-size: 30px;
     color: white;
-
     letter-spacing: 13px;
     padding: 20px;
 }
@@ -52,6 +53,29 @@ h1{
     color: white;
 }
 
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: black;
+    
+}
+
+h3{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    
+    text-decoration-color: black;
+    text-decoration: underline
+}
+
 span{
     display: inline-block;
     padding: 0.3em;
@@ -60,8 +84,10 @@ span{
 
 a:hover{
     color: darkorange;
- 
-
+ }
+a:active{
+    text-decoration-line: underline;
+    color: darkorange;
 }
 
 .overliner{
@@ -77,12 +103,13 @@ a:hover{
 footer {
     background-color: black;
     position: absolute;
-    top: 98%;
+    top: 97%;
     left: 50%;
-    height: 50px;
+    height: 59px;
     width: 100%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    display: block;
 }
 
 p{
@@ -95,6 +122,7 @@ p{
 }
 
 .contact{
+    
     height: 80%;
     width: 50%;
     background-color: whitesmoke;
@@ -103,13 +131,63 @@ p{
     margin-right: -50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    display: none;
 }
-h2{
+
+.about {
+    height: 80%;
+    width: 50%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.work{
+    height: 80%;
+    width: 50%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.photos{
     text-align: center;
-    text-transform: uppercase;
-    font-family: 'Source Code Pro', monospace;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 50px;
-    color: black;
 }
+
+.github{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.resume{
+    height: 80%;
+    width: 50%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.textcontact{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+.icons{
+    margin-top: 450px;
+    display: inline-flex;
+    padding: 0px;
+}
+
