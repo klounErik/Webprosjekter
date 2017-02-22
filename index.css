@@ -47,9 +47,9 @@ h1{
     text-transform: uppercase;
     font-family: 'Source Code Pro', monospace;
     text-align: center;
-    margin-top: 350px;
-    margin-bottom: 5px;
     font-size: 72px;
+    margin-top: 0px;
+    margin-bottom: 2px;
     color: white;
 }
 
@@ -97,7 +97,7 @@ a:active{
     color: white;
     font-size: 20px;
     position: relative;
-    top: 530px;
+    top: 350px;
 }
 
 footer {
@@ -120,7 +120,19 @@ p{
     font-size: 20px;
     position: relative;
 }
-
+.resume{
+    height: 80%;
+    width: 50%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: none;
+    border-radius: 40px;
+    opacity: .9;
+}
 .contact{
     
     height: 80%;
@@ -133,6 +145,7 @@ p{
     transform: translate(-50%, -50%);
     display: none;
     border-radius: 40px;
+    opacity: .9;
 }
 
 .about {
@@ -146,6 +159,7 @@ p{
     transform: translate(-50%, -50%);
     display: none;
     border-radius: 40px;
+    opacity: .9;
 }
 
 .work{
@@ -159,6 +173,7 @@ p{
     transform: translate(-50%, -50%);
     display: none;
     border-radius: 40px;
+    opacity: .9;
 }
 
 .photos{
@@ -168,19 +183,6 @@ p{
 .github{
     margin-top: 50px;
     text-align: center;
-}
-
-.resume{
-    height: 80%;
-    width: 50%;
-    background-color: whitesmoke;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    display: none;
-    border-radius: 40px;
 }
 
 .textcontact{
@@ -200,4 +202,7 @@ p{
     top: 320px;
     position: absolute;
 }
+
+
+
 
