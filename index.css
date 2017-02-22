@@ -16,7 +16,7 @@ a{
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: white;
     letter-spacing: 5px;
 }
 h1{
@@ -24,14 +24,43 @@ h1{
     font-family: 'Source Code Pro', monospace;
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 5px;
     font-size: 72px;
-    color: black;
+    color: white;
 }
 span{
     display: inline-block;
     padding: 0.3em;
-    border: black solid 10px;
+    border: white solid 10px;
 }
 a:hover{
-    color: white;
+    color: black;
+
 }
+.underliner{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    margin-top:  484px;
+    padding: 0px;
+}
+p{
+   font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
