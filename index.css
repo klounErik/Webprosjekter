@@ -15,8 +15,8 @@ html{
 body{
     height: 100%;
     width: 100%;
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 40%;
+    min-width: 40%;
     background-image: url(book.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -144,18 +144,21 @@ p{
 
 .photos{
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .github{
-    margin-top: 50px;
+
     text-align: center;
 }
 
 .textcontact{
     color: black;
-    font-size: 15px;
+    font-size: 16px;
+    display: inline-flex;
+    position: relative;
     text-align: center;
-    display: inline-block;
 }
 .icons{
     display: inline-flex;
@@ -163,7 +166,6 @@ p{
     top: 90%;
     
 }
-
 .me{
     left: 430px;
     top: 320px;
