@@ -9,7 +9,6 @@ function contactClick(){
     $(".overliner").hide();
 
 }
-
 function resumeClick(){
     $(".contact").hide();
     $(".resume").show();
@@ -17,7 +16,6 @@ function resumeClick(){
     $(".about").hide();
     $(".overliner").hide();
 }
-
 function aboutClick(){
     $(".contact").hide();
     $(".resume").hide();
@@ -25,7 +23,6 @@ function aboutClick(){
     $(".about").show();
     $(".overliner").hide();
 }
-
 function FrontpageClick(){
     $(".contact").hide();
     $(".resume").hide();
@@ -33,7 +30,6 @@ function FrontpageClick(){
     $(".about").hide();
     $(".overliner").show();
 }
-
 function workClick(){
     $(".contact").hide();
     $(".resume").hide();
