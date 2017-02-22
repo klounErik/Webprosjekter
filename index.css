@@ -77,11 +77,12 @@ a:hover{
 footer {
     background-color: black;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
-    height: 100px;
+    top: 98%;
+    left: 50%;
+    height: 50px;
     width: 100%;
-    overflow:hidden;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 p{
@@ -93,3 +94,22 @@ p{
     position: relative;
 }
 
+.contact{
+    height: 80%;
+    width: 50%;
+    background-color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: black;
+}
