@@ -10,6 +10,4 @@ var foo = $(this).attr("href")
         $(".overliner").show();
     }
 })
-                   
-
 
