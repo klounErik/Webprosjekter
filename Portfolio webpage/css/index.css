@@ -120,7 +120,7 @@ p{
    font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;
     color: white;
-    text-align: center;
+    left: 10%;
     font-size: 20px;
     display: inline-block;
     position: relative;
@@ -176,6 +176,27 @@ p{
     display: block;
     position: relative;
     border-radius: 50px;:
+}
+
+#one, 
+#two, 
+#three,
+#four,
+#five,
+#six{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    top: 50px;
+}
+.footerText{
+    text-align: center;
+    left: 40%;
+    display: inline-block;
 }
 
 

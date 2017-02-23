@@ -3,8 +3,8 @@
 $("nav > a").click(function(event){
     $(".modal").hide();
 var foo = $(this).attr("href")
-var currentClass = foo;   
-    $(foo).show();
+        
+        $(foo).show();
     if(foo != "#"){
        $(".overliner").hide();
     } else{
