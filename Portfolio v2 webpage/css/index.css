@@ -3,24 +3,37 @@
 body{
     margin: 0px;
     padding: 0px;
+    min-height: 50%;
+    min-width: 50%;
 }
 
 .header{
     height: 500px;
-    background-image: url(nature.jpg);
+    background-image: url(../images/nature.jpg);
     background-size: cover;
     background-position: center center;
-    border-bottom:  white solid 20px;
-    
+    margin:0px;
+    padding: 0px;
+    border-bottom: white solid 5px;
 }
 .logo{
     height: 100px;
     width: 100px;
     float: left;
-    background-image: url(preview.png);
+    background-image: url(../images/preview.png);
     background-size: cover;
     background-position: -14px;
     margin: 50px 0px 0px 50px;
+    border-radius: 60px;
+}
+.logo2{
+    height: 100px;
+    width: 100px;
+    float: right;
+    background-image: url(../images/preview.png);
+    background-size: cover;
+    background-position: -14px;
+    margin: 8px 50px 0px 50px;
     border-radius: 60px;
 }
 
@@ -54,14 +67,31 @@ span{
     padding: 0.2em 0.5em;
     border:  white solid 10px;
     display: inline-block;
-    border-radius: 40px;
+    border-radius: 20px;
+    margin-bottom: 0px;
 }
 .kicker{
     text-align: center;
     color: white;
+    
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 20px;
     letter-spacing: 0.05em;
+}
+
+.contentArea{
+    height: 400px;
+    background-color: black;
+
+}
+
+.footer{
+    height: 150px;
+    background-color: black;
+}
+.footerKicker{
+    margin: 0px;
+    padding: 0px;
     
 }
