@@ -1,9 +1,8 @@
+var openwatherappid = '3db348938434011b82239668b6240a1b';
+var openwatherurl = 'api.openweathermap.org/data/2.5/weather?q=London&appid=';
 
-$.get("https://api.spotify.com/v1/artists/2CCqizWr7RQhtABnxW9epA", 
-     function(data){
-      console.dir(data)
-        $("#id").text(data.id)
-        $("#name").text(data.name)
-        $("#type").text(data.type)
-        $("#uri").text(data.uri)
-       });
+
+    $.get('api.openweathermap.org/data/2.5/weather?q=London&appid=3db348938434011b82239668b6240a1b',        
+            function(data){
+            console.log(data.name)
+          });
