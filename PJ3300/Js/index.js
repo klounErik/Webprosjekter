@@ -1,3 +1,7 @@
+$.("search-bar-submit" function search(data){
+    console.log(data);
+});
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
