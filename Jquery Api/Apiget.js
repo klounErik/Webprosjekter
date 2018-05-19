@@ -1,4 +1,4 @@
-var openwatherappid = '3db348938434011b82239668b6240a1b';
+var openwatherappid = '';
 var openwatherurl = 'api.openweathermap.org/data/2.5/weather?q=London&appid=';
 
 
